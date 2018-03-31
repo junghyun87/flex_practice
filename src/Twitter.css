@@ -1,0 +1,22 @@
+/*Make parent element a flex container*/
+ul {
+  display: flex; /*or inline-flex*/
+}
+
+li.twitter {
+  margin: 8px;
+  padding: 4px;
+  flex-basis: auto;
+}
+
+li.twitter:nth-child(4) {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul.twitter {
+  padding: 0;
+  list-style: none;
+  background-color: #e8e8e9;
+  align-items: center;
+}

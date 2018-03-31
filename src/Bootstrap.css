@@ -1,0 +1,20 @@
+/*Make parent element a flex container*/
+ul {
+  display: flex; /*or inline-flex*/
+}
+
+li {
+  margin: 8px;
+  padding: 4px;
+}
+
+li:nth-child(1) {
+  margin-right: auto;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  background-color: #e8e8e9;
+  align-items: center;
+}
